@@ -15,14 +15,14 @@ int _atoi(char *s)
 	n = 0;
 	len = 0;
 	f = 0;
-	diigit = 0;
+	digit = 0;
 
 	while (s[len] != '\0')
 		len++;
 
 	while (i < len && f == 0)
 	{
-		if (s[i] == '_')
+		if (s[i] == '-')
 			++d;
 
 		if (s[i] >= '0' && s[i] <= '9')
