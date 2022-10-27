@@ -4,7 +4,7 @@
  * leet - encodes a string in 1337
  * @s: string to be encoded
  *
- * Return: the resulting string
+ * Return: the resulting string;
  */
 char *leet(char *s)
 {
@@ -13,7 +13,7 @@ char *leet(char *s)
 	char *a = "aAeEoOtTlL";
 	char *b = "4433007711";
 
-	for (i = 0; s[x] != '\0'; x++)
+	for (x = 0; s[x] != '\0'; x++)
 	{
 		for (y = 0; y < 10; y++)
 		{
