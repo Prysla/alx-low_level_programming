@@ -10,24 +10,24 @@
  */
 unsigned int _strspn(char *s, char *accept);
 {
-	int press, saved, cari, flag;
+	int i, j, f, flag;
 
-	cari = 0;
+	i = 0;
 
-	for (press = 0; s[cari] != '\0'; cari++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		flag = 0;
-		for (saved = 0; accept[saved] != '\0'; saved++)
+		for (j = 0; accept[j] != '\0'; j++)
 		{
-			if (s[press] == accept[saved])
+			if (s[i] == accept[j])
 			{
-				cari++;
+				f++;
 				flag = 1;
 			}
 		}
 		if (flag == 0)
 		{
-			return (cari);
+			return (f);
 		}
 	}
 
