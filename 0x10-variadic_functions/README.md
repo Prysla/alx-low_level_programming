@@ -1,0 +1,4 @@
+Variadic functions
+Task 0 - a function that returns the sum of all its parameters
+Task 1 - a funtion that prints numbers followed by a new line
+TASK 2 - a function that prints strings followed by a new line
